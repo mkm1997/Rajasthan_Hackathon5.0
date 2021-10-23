@@ -23,3 +23,11 @@ def position(request):
         pass
     else:
         return HttpResponse("get request is not accepted")
+    
+    
+
+def get_longitude_latitude(request):
+    if request.method == "POST":
+        pass
+    else:
+        return HttpResponse("get request is not accepted")
